@@ -34,6 +34,7 @@ export const rotateXZ = (dx, dy) => {
   ];
 };
 
+//source: https://gist.github.com/jmurzy/0d62c0b5ea88ca806c16b5e8a16deb6a#file-foldview-transformutil-transformorigin-js
 export const transformOrigin = (matrix, origin) => {
   const { x, y, z } = origin;
 
