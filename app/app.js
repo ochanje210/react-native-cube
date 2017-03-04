@@ -10,7 +10,7 @@ const HEIGHT = Dimensions.get('window').height;
 const WIDTH = Dimensions.get('window').width;
 
 const styles = {
-  rectangleContainer: {
+  container: {
     position: 'absolute',
     left: WIDTH / 2 - 50,
     top: HEIGHT / 2 - 50,
@@ -126,7 +126,7 @@ export default class Cube extends Component {
 
   render() {
     return (
-      <View style={styles.rectangleContainer}>
+      <View style={styles.container}>
         {this.renderFront('#4c72e0')}
         {this.renderBack('#8697df')}
         {this.renderLeft('#b5bce2')}
